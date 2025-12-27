@@ -2,7 +2,7 @@ import Image from "next/image";
 import Background from '@/components/background';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import styles from './contact.module.css';
+import styles from '@/styles/contact.module.css';
 
 export default function Contact() {
   return (
