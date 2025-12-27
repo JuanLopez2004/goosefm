@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.footerContainer}>
-                <p>&copy; 2025 Juan Lopez. All rights reserved.</p>
+                <p>&copy; 2026 goosefm.</p>
             </div>
         </footer>
     );

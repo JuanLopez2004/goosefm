@@ -8,7 +8,7 @@ const Background: React.FC = () => (
       left: 0,
       width: "100vw",
       height: "100vh",
-      background: "rgba(56, 55, 55, 1)",
+      background: "#f8f8f8ff",
       zIndex: 0,
       pointerEvents: "none",
     }}
