@@ -15,7 +15,7 @@ export default function Schedule() {
         <img 
           src="https://github.com/user-attachments/assets/660a6f52-016c-4ec3-a6ca-df298b2a3223" 
           alt="Goose FM Weekly Schedule" 
-          style={{ width: '100%', maxWidth: '300px', margin: '2rem auto', display: 'block' }}
+          style={{ width: '100%', maxWidth: '400px', margin: '2rem auto', display: 'block' }}
         />
       </ContentBody>
       <Footer />
