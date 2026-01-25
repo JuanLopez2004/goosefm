@@ -38,7 +38,7 @@
             }
 
             .headerLogo {
-                height: 120px;
+                height: 8rem;
                 transition: opacity 0.3s ease;
                 border-radius: 50%;
             }
@@ -63,7 +63,8 @@
 
             .headerNav a:hover {
                 color: rgb(255, 255, 255);
-                text-decoration: underline;
+                transition: color 0.3s ease;
+                font-weight: bold;
             }
 
             @media (max-width: 900px) {
@@ -87,7 +88,8 @@
                     height: 40px;
                 }
                 .headerLogo {
-                    height: 55px;
+                    height: 5rem;
+                    width: 5rem;
                 }
                 .headerTitle {
                     font-size: 2rem;
