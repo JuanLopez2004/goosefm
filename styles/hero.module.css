@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 6rem 2rem 2rem;
+    padding: 2rem;
+    margin-top: 150px;
     flex: 1;
     position: relative;
     overflow: hidden;
@@ -51,6 +52,12 @@
     font-size: 1.5rem;
     color: #ff0000;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        margin-top: 120px;
+    }
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,7 @@
   .header {
                 display: flex;
                 padding: 0.5rem 0;
+                padding-top: calc(0.5rem + env(safe-area-inset-top, 0px));
                 align-items: center;
                 background-color: #383737ff;
                 color: white;
@@ -12,7 +13,6 @@
                 width: 100vw;
                 min-width: 100vw;
                 z-index: 9999;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
                 height: 150px;
             }
 
@@ -69,9 +69,10 @@
 
             @media (max-width: 900px) {
                 .header {
-                    padding: 0.3rem 0;
+                    padding: 0.5rem 0;
                     height: auto;
                     min-height: unset;
+                    overflow: visible;
                 }
                 .headerContainer {
                     flex-direction: column;
@@ -85,11 +86,11 @@
                     flex-direction: row;
                     justify-content: center;
                     gap: 0.5rem;
-                    height: 40px;
+                    height: auto;
                 }
                 .headerLogo {
-                    height: 5rem;
-                    width: 5rem;
+                    height: 4rem;
+                    width: 4rem;
                 }
                 .headerTitle {
                     font-size: 2rem;
