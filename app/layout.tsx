@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "goosefm",
-  description: "DeKalb's alternative, noncommercial, online radio station",
+  title: "DeKalb Music Scene",
+  description: "Shows, artists, and updates from the DeKalb music community",
   icons: {
     icon: '/favicon.ico',
   },

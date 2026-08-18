@@ -11,6 +11,10 @@
     text-align: left;
 }
 
+.noHeaderOffset {
+    padding-top: 2rem;
+}
+
 .contentBody h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -57,7 +61,8 @@
 @media (max-width: 768px) {
     .contentBody {
         padding: 2rem 1rem;
-        padding-top: calc(120px + 2rem);
+        padding-top: calc(95px + 2rem);
+        scroll-margin-top: 95px;
     }
     
     .contentBody h2 {
@@ -71,5 +76,9 @@
     .contentBody p,
     .contentBody li {
         font-size: 1rem;
+    }
+
+    .noHeaderOffset {
+        padding-top: 1.25rem;
     }
 }

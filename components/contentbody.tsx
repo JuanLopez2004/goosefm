@@ -1,9 +1,14 @@
 import React from "react";
 import styles from '../styles/contentbody.module.css';
 
-export default function ContentBody({ children }: { children: React.ReactNode }) {
+type ContentBodyProps = {
+    children: React.ReactNode;
+    noHeaderOffset?: boolean;
+};
+
+export default function ContentBody({ children, noHeaderOffset = false }: ContentBodyProps) {
     return (
-        <main id="About" className={styles.contentBody}>
+        <main id="main-content" className={`${styles.contentBody} ${noHeaderOffset ? styles.noHeaderOffset : ''}`}>
             {children}
         </main>
     );

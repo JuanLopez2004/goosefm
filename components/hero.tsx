@@ -14,15 +14,15 @@ export default function Hero() {
                 priority
             />
             <div className={styles.heroContent}>
-                <Link href="/radio" className={styles.heroLink}>
-                    <h1 className={styles.heroTitle}>Tune in Now</h1>
-                    <p className={styles.heroSubtitle}>Listen to Goose FM</p>
+                <Link href="/upcoming-shows" className={styles.heroLink}>
+                    <h1 className={styles.heroTitle}>Find Upcoming Shows</h1>
+                    <p className={styles.heroSubtitle}>See what is happening in DeKalb</p>
                 </Link>
             </div>
             <div className={styles.heroContent}>
-                <Link href="/schedule" className={styles.heroLink}>
-                    <h1 className={styles.heroTitle}>View Schedule</h1>
-                    <p className={styles.heroSubtitle}>Check out upcoming broadcasts</p>
+                <Link href="/photos" className={styles.heroLink}>
+                    <h1 className={styles.heroTitle}>Browse Photos</h1>
+                    <p className={styles.heroSubtitle}>View flyers and scene shots</p>
                 </Link>
             </div>
             

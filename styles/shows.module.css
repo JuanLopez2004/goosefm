@@ -1,0 +1,180 @@
+.showsPage {
+  min-height: 100vh;
+  padding: 2rem;
+  padding-top: calc(150px + 2rem);
+  position: relative;
+  z-index: 10;
+  color: #0f0f0f;
+}
+
+.pageTitle {
+  font-size: 2.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.pageIntro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 70ch;
+}
+
+.showsGrid,
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 300px));
+  justify-content: center;
+  gap: 1.05rem;
+}
+
+.showCard,
+.photoCard {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  width: 100%;
+}
+
+.showImageWrap {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 0.6rem;
+  background: #f4f4f4;
+  margin-bottom: 0.9rem;
+}
+
+.showImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.showDate {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #8f1300;
+  margin-bottom: 0.5rem;
+}
+
+.showTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.showVenue {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.showTime {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.showArtists {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.showNotes {
+  margin-bottom: 0.8rem;
+}
+
+.ticketLink {
+  color: #8f1300;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.showActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.blogSection {
+  margin-top: 3rem;
+}
+
+.blogList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.blogLink {
+  color: #8f1300;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.7rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.upcoming {
+  background: #eaf7e7;
+  color: #216e19;
+}
+
+.past {
+  background: #f4f4f4;
+  color: #4a4a4a;
+}
+
+.photoImageWrap {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 0.6rem;
+  background: #f4f4f4;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.photoCaption {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .showsPage {
+    padding-top: calc(95px + 2rem);
+  }
+
+  .showsGrid,
+  .photoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pageTitle {
+    font-size: 2.1rem;
+  }
+
+  .showCard,
+  .photoCard {
+    padding: 1rem;
+  }
+
+  .showTitle {
+    font-size: 1.1rem;
+  }
+
+}
