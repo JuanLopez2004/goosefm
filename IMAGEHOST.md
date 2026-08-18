@@ -1,3 +1,7 @@
+![Veracity Plant](https://github.com/user-attachments/assets/a1591462-0fd3-4abd-a98a-1fb6de6c22b2)
+![Corn Fest](https://github.com/user-attachments/assets/a152352f-2b84-49bc-bd8d-5dec2e4ffdf4)
+![Fargo Fest 2026](https://github.com/user-attachments/assets/ed0d9748-ede0-4f72-8e7e-ff61f8282dd0)
+![Hands Off Our Fest](https://github.com/user-attachments/assets/dc214333-1e4c-4471-8d25-ba0c0def605c)
 ![logo](https://github.com/user-attachments/assets/8e237fe6-f227-43f5-b173-c5bfb91c62ef)
 ![dekalbcorn](https://github.com/user-attachments/assets/373d27c1-2b06-4a67-b3e8-dec525800c67)
 ![Goose](https://github.com/user-attachments/assets/2af4e33c-53b6-4123-8333-785fe5d761a4)
