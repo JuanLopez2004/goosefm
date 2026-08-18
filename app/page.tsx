@@ -3,6 +3,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Footer from '@/components/footer';
 import ContentBody from "@/components/contentbody";
+import styles from '@/styles/contentbody.module.css';
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
           <h3>Built For The Local Scene</h3>
           <p>
             This site is focused on in-person music culture in DeKalb, Check the About page to learn more and use the show pages to explore what is next.
+          </p>
+          <p>
+            Join the <a href="https://discord.gg/tdjqRACpwn" className={styles.discordLink}>Discord!</a>
           </p>
         </section>
       </ContentBody>

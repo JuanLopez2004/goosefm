@@ -58,6 +58,21 @@
     color: #ff0000;
 }
 
+.discordLink {
+    color: #5865f2;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(88, 101, 242, 0.45);
+    box-shadow: inset 0 -0.35em 0 rgba(88, 101, 242, 0.16);
+    transition: text-shadow 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.discordLink:hover {
+    color: #3d49c9;
+    text-shadow: 0 0 14px rgba(88, 101, 242, 0.65);
+    box-shadow: inset 0 -0.45em 0 rgba(88, 101, 242, 0.24);
+}
+
 @media (max-width: 768px) {
     .contentBody {
         padding: 2rem 1rem;
